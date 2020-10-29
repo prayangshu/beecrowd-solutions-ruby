@@ -1,17 +1,22 @@
-A, B= gets.split.map(&:to_f)
+X, Y= gets.split.map(&:to_f)
 
-if A == 1
-  puts "Total: R$ #{4.0*B}"
+if X == 1
+  A = 4.0*Y
+  puts "Total: R$ #{'%.2f' % A}"
 
-elsif A ==2
-  puts "Total: R$ #{4.50*B}"
+elsif X ==2
+  A = 4.50*Y
+  puts "Total: R$ #{'%.2f' % A}"
 
-elsif A ==3
-  puts "Total: R$ #{5.00*B}"
+elsif X ==3
+  A = 5.00*Y
+  puts "Total: R$ #{'%.2f' % A}"
 
-elsif A ==4
-  puts "Total: R$ #{2.00*B}"
+elsif X ==4
+  A = 2.00*Y
+  puts "Total: R$ #{'%.2f' % A}"
 
-elsif A ==5
-  puts "Total: R$ #{1.50*B}"
+elsif X ==5
+  A = 1.50*Y
+  puts "Total: R$ #{'%.2f' % A }"
 end
