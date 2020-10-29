@@ -1,4 +1,4 @@
-a, b, c= gets.split.map(&:to_i)
+input1, input2, input3= gets.split.map(&:to_i)
 
 if (input1 > input2) && (input1 > input3)
   puts "#{input1} eh o maior"
