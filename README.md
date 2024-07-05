@@ -1,7 +1,5 @@
 # beecrowd Ruby Solutions 📝💎
 
-# beecrowd Ruby Solutions 📝💎
-
 Welcome to the **beecrowd Ruby Solutions** repository! 🚀 This repository contains solutions to various problems from the online judge platform **beecrowd**, solved using Ruby. Whether you're a beginner looking to learn Ruby or an experienced developer seeking efficient problem-solving techniques, this repo has something for you! 🎉
 
 ## Introduction 🧐
